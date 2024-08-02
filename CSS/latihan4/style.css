@@ -1,0 +1,7 @@
+body {
+    background-color: lightblue;
+    background-image: url('battle-in-5-seconds.png');
+    background-repeat: no-repeat;
+    background-position: top center;
+    /* background: color url("") top center no-repeat; */
+}

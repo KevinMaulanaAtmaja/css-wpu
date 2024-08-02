@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Float & Clear</title>
+        <!-- clearfix script -->
+        <!-- https://nicolasgallagher.com/micro-clearfix-hack/ -->
+        <style>
+            .container {
+                width: 600px;
+                border: 1px solid black;
+                margin: auto;
+                padding: 5px;
+                /* utk clear float */
+                /* overflow: auto; */
+            }
+            .clear {
+                clear: both;
+            }
+            img {
+                float: left;
+                margin: 5px;
+                /* width: 250px; */
+            }
+            .satu,
+            .dua,
+            .tiga {
+                width: 100px;
+                height: 100px;
+            }
+            .satu {
+                background-color: salmon;
+            }
+            .dua {
+                background-color: limegreen;
+                float: right;
+            }
+            .tiga {
+                background-color: lightskyblue;
+            }
+            .kotak {
+                width: 80px;
+                height: 80px;
+                background-color: salmon;
+                color: white;
+                text-align: center;
+                line-height: 80px;
+                font-style: 30px;
+                margin: 2px;
+                float: right;
+            }
+            .kiri {
+                width: 150px;
+                height: 500px;
+                background-color: saddlebrown;
+                float: left;
+                clear: right;
+            }
+            .tengah {
+                width: 300px;
+                height: 500px;
+                background-color: lightgoldenrodyellow;
+                float: left;
+            }
+            .kanan {
+                width: 150px;
+                height: 500px;
+                background-color: lime;
+                float: left;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <div class="satu"></div>
+            <div class="dua"></div>
+            <div class="tiga"></div>
+        </div>
+        <div class="container">
+            <img width="100" src="./img/battle-in-5-seconds.png" alt="battle-in-5-seconds" />
+            <p>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquid pariatur omnis vitae exercitationem natus
+                distinctio eaque doloribus, ut est. Eligendi exercitationem, ullam dolores reprehenderit itaque sint iusto vitae
+                nam libero quam ipsam atque, veniam doloribus error. Quae libero aliquam cumque, provident quas tenetur nemo
+                explicabo ut veritatis, dolores, vitae veniam quasi. Explicabo incidunt quis eligendi animi ut iure facere tempore
+                optio molestiae, dolores architecto tempora placeat nostrum saepe consequuntur, voluptas minima cum molestias
+                laboriosam aut. Consequuntur repellat impedit dolorem quidem.
+            </p>
+            <div class="clear"></div>
+        </div>
+        <div class="container">
+            <div class="kotak">1</div>
+            <div class="kotak">2</div>
+            <div class="kotak">3</div>
+            <div class="kotak">4</div>
+            <div class="kotak">5</div>
+            <div class="kotak">6</div>
+            <div class="kotak">7</div>
+            <div class="kotak">8</div>
+            <div class="kotak">9</div>
+            <div class="kotak">10</div>
+        </div>
+        <div class="container">
+            <div class="kiri"></div>
+            <div class="tengah"></div>
+            <div class="kanan"></div>
+        </div>
+    </body>
+</html>

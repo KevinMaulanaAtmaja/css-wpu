@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Position</title>
+        <!-- utk simulasi position -->
+        <!-- https://www.tinkercad.com/ -->
+        <style>
+            body {
+                height: 2000px;
+            }
+            div {
+                width: 200px;
+                height: 200px;
+                margin: auto;
+            }
+            /* default position elemen adlh static */
+            /* position relative utk maju (1 dimensi) */
+            .container {
+                width: 600px;
+                height: 700px;
+                border: 4px solid black;
+                /* position absolute terpengaruh karna 1 dimensi sdang fixed tdk */
+                position: relative;
+            }
+            .satu {
+                background-color: khaki;
+                position: relative;
+                top: 30px;
+                left: 50px;
+            }
+            .dua {
+                background-color: lightseagreen;
+                position: absolute;
+                top: 0;
+                right: 0;
+            }
+            .tiga {
+                background-color: lightsteelblue;
+                position: fixed;
+                top: 0;
+                left: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <div class="satu"></div>
+            <div class="dua"></div>
+            <div class="tiga"></div>
+        </div>
+    </body>
+</html>

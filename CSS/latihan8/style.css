@@ -1,0 +1,22 @@
+/* inline id class element */
+#p1 {
+    color: red;
+}
+p {
+    color: green;
+}
+/* #p1 dipilih */
+
+ul#sarapan li {
+    color: green;
+}
+.favorit {
+    color: blue;
+}
+/* ul#sarapan li dipilih */
+ul#sarapan li.favorit {
+    color: red;
+}
+/* ul#sarapan li.favorit dipilih */
+
+/* https://specificity.keegan.st/ */

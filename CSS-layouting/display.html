@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Display</title>
+        <style>
+            .navigasi {
+                background-color: lightblue;
+            }
+            .main {
+                width: 600px;
+                background-color: lightgreen;
+            }
+            .main span {
+                background-color: lightcoral;
+            }
+            .d-none {
+                display: none;
+            }
+            .d-inline {
+                background-color: coral;
+            }
+            .d-inline-block {
+                display: inline-block;
+                width: 200px;
+                height: 100px;
+                background-color: yellow;
+            }
+            .d-block {
+                background-color: green;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="header">
+            <h1>Selamat Datang di Web Kami</h1>
+        </div>
+
+        <div class="navigasi">
+            <h2>Daftar Link</h2>
+            <ul>
+                <li><a href="#">Link 1</a></li>
+                <li><a href="#">Link 2</a></li>
+                <li><a href="#">Link 3</a></li>
+                <li><a href="#">Link 4</a></li>
+                <li><a href="#">Link 5</a></li>
+                <a class="d-inline" href="#">Display Inline</a>
+                <a class="d-inline" href="#">Display Inline 2</a>
+                <a class="d-inline-block" href="#">Display Inline-Block</a>
+            </ul>
+        </div>
+
+        <div class="main">
+            <h2 class="d-block">Judul Artikel</h2>
+            <h3 class="d-block">Display Block</h3>
+            <h3 class="d-none">Display None</h3>
+            <img src="./img/battle-in-5-seconds.png" alt="battle-in-5-seconds" />
+            <p>
+                <span>Lorem ipsum</span> dolor, sit amet consectetur adipisicing elit. Id, voluptates harum impedit incidunt
+                consectetur nulla culpa rem quasi quo officiis libero sed eligendi tempore odit laborum aspernatur temporibus
+                distinctio debitis.
+            </p>
+            <p>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Id, voluptates harum impedit incidunt consectetur nulla
+                culpa rem quasi quo officiis libero sed eligendi tempore odit laborum aspernatur temporibus distinctio debitis.
+            </p>
+        </div>
+
+        <div class="copyright">Copyright 2024 - Artikel</div>
+    </body>
+</html>
